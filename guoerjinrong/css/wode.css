@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	background-color: #FFFFFF;
+}
+.logo{
+	width: 70%;
+	float: left;
+	margin: 10% 15%;
+}
+.logo img{
+	width: 100%;
+}
+.form{
+	width: 100%;
+	float: left;
+}
+#ipt{
+	width: 80%;
+	float: left;
+	margin: 2% 10%;
+	border: none;
+	border-bottom: 2px solid #018dcb;
+}
+#ipt1{
+	width: 25%;
+	float: left;
+	margin: 2% 10%;
+	border: none;
+	border-bottom: 2px solid #018dcb;
+}
+
+.ipt{
+	width: 45%;
+	height: 3.4rem;
+	float: left;
+	margin-right: 10%;
+	text-align: center;
+	line-height: 3.4rem;
+	background-color: #CCCCCC;
+}
+#ipt2{
+	width: 10%;
+	height: 1.5rem;
+	float: left;
+	margin-left: 10%;
+	margin-top: 3%;
+}
+.span{
+	float: left;
+	margin-top: 3%;
+	color: #acacac;
+}
+.form_1{
+	width: 100%;
+	float: left;
+}
+#ipt3{
+	float: left;
+	width: 80%;
+	margin-left: 10%;
+	line-height: 2.5rem;
+	font-size: 120%;
+	background-color: #9badb1;
+	margin-top: 5%;
+}
+.form_2{
+	width:100%;
+	float: left;
+	text-align: center;
+	margin-top: 3%;
+}
+.form_2 a{
+	color: #6c6c6c;
+}
+.form_3{
+	width:100%;
+	float: left;
+	text-align: center;
+	margin-top: 15%;
+}
+.form_3 a{
+	color: #6c6c6c;
+}
+.form_3 a span{
+	color: #0d8fa5;
+}

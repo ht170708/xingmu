@@ -1,0 +1,115 @@
+{
+	"guoer.html": {
+		"resources": [
+			"shouye.html"
+		],
+		"refer": [
+			"licai.html",
+			"shouye.html",
+			"gengduo.html",
+			"wode.html"
+		]
+	},
+	"index.html": {
+		"resources": [
+			"shouye.html",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css"
+		],
+		"refer": [
+			"licai.html",
+			"shouye.html",
+			"gengduo.html",
+			"wode.html"
+		]
+	},
+	"licai.html": {
+		"refer": [
+			"tiao.html"
+		],
+		"resources": [
+			"css/licai.css"
+		]
+	},
+	"shouye.html": {
+		"refer": [
+			"licai.html",
+			"zhuan.html"
+		],
+		"resources": [
+			"img/3.png",
+			"img/2.png",
+			"img/1.png",
+			"css/mui.min.css",
+			"css/shouye.css",
+			"img/4.png"
+		]
+	},
+	"wode.html": {
+		"refer": [
+			"denglu.html"
+		],
+		"resources": [
+			"img/5.png",
+			"css/wode.css"
+		]
+	},
+	"zhuan.html": {
+		"refer": [
+			"chenggong.html",
+			"cg.html"
+		]
+	},
+	"tiao.html": {
+		"resources": [
+			"css/mui.min.css",
+			"js/mui.min.js",
+			"fonts/mui.ttf"
+		]
+	},
+	"denglu.html": {
+		"resources": [
+			"css/mui.min.css"
+		]
+	},
+	"gengduo.html": {
+		"resources": [
+			"img/images/01_16.png",
+			"img/6.png",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"img/11.png",
+			"img/images/01_09.png",
+			"img/8.png",
+			"img/9.png",
+			"img/7.png"
+		],
+		"refer": [
+			"tiao.html",
+			"xx.html",
+			"tt.html"
+		]
+	},
+	"xx.html": {
+		"resources": [
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"img/images/00_02.png",
+			"img/images/00_09.png",
+			"img/images/00_05.png"
+		]
+	},
+	"tt.html": {
+		"resources": [
+			"img/images/00_09.png",
+			"css/mui.min.css",
+			"img/images/tt_03.png",
+			"img/images/00_05.png",
+			"js/mui.min.js",
+			"fonts/mui.ttf"
+		]
+	}
+}

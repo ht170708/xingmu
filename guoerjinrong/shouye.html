@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/shouye.css" />
+		<script type="text/javascript">
+			window.onload = function() {
+				document.documentElement.style.fontSize = document.documentElement.clientWidth / 640 * 100 + 'px';
+				window.onresize = function() {
+					document.documentElement.style.fontSize = document.documentElement.clientWidth / 640 * 100 + 'px';
+				}
+			}
+		</script>
+	</head>
+
+	<body>
+		<div id="slider" class="mui-slider">
+			<div class="mui-slider-group mui-slider-loop">
+				<div class="mui-slider-item mui-slider-item-duplicate">
+					<a href="#">
+						<img src="img/1.png">
+					</a>
+				</div>
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="img/1.png">
+					</a>
+				</div>
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="img/1.png">
+					</a>
+				</div>
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="img/1.png">
+					</a>
+				</div>
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="img/1.png">
+					</a>
+				</div>
+				<div class="mui-slider-item mui-slider-item-duplicate">
+					<a href="#">
+						<img src="img/1.png">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="guanyu">
+			<img src="img/2.png" />
+			<p>关于果儿金融业务模式调整的公告</p>
+		</div>
+		<div class="tuijian">
+			<div class="tuijian_1">
+				<span>每日推荐</span>
+			</div>
+			<div class="tuijian_2">
+				<div class="p">
+					<ul>
+						<li>新手专享</li>
+						<li>15%</li>
+						<li>预期年化收益率</li>
+						<li>31天/限投10000/收益127.4</li>
+						<li id="li"><input type="button" value="正在投标中" /></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<a href="">
+			<div class="licai">
+				<div class="licai_1">
+					<img src="img/3.png" alt="" />
+				</div>
+				<div class="licai_2">
+					<ul>
+						<li>理财项目<span>(10)</span></li>
+						<li>预期年化收益率8.7%-10.2%</li>
+						<li>每日10:00至20:00整点发标</li>
+					</ul>
+				</div>
+			</div>
+		</a>
+		<div class="asd">
+			<div class="licai">
+			<div class="licai_1">
+				<img src="img/4.png" alt="" />
+			</div>
+			<div class="licai_2">
+				<ul>
+					<li>债权转让<span>(0)</span></li>
+					<li>购买项目7天之后可以转让</li>
+				</ul>
+			</div>
+		</div>
+		</div>
+		
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+			mui.plusReady(function() {
+				mui("body").on("tap", 'a', function() {
+					var strTitle = this.getAttribute('title')
+					mui.openWindow({
+						url: "licai.html",
+						id: "licai.html",
+						extras: {
+							title: strTitle
+						}
+					})
+				})
+			})
+			mui.plusReady(function() {
+				mui(".asd").on("tap", 'div', function() {
+					var strTitle = this.getAttribute('title')
+					mui.openWindow({
+						url: "zhuan.html",
+						id: "zhuan.html",
+						extras: {
+							title: strTitle
+						}
+					})
+				})
+			})
+		</script>
+		<script type="text/javascript">
+			li.onclick = function() {
+				alert('今日已卖完,明天再来')
+			}
+		</script>
+	</body>
+
+</html>

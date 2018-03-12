@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<!DOCTYPE html>
+		<html class="ui-page-login">
+
+		<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+			<title></title>
+			<link href="css/mui.min.css" rel="stylesheet" />
+			<link href="css/style.css" rel="stylesheet" />
+			<link rel="stylesheet" type="text/css" href="css/wode.css" />
+		</head>
+
+		<body>
+			<div>
+				<div class="logo">
+					<img src="img/5.png" />
+				</div>
+				<div class="form">
+					<form action="" method="post">
+						<input type="text" id="ipt" placeholder="手机号/用户名" />
+						<input type="text" id="ipt" placeholder="登录密码" />
+						<input type="text" id="ipt1" placeholder="验证码" />
+						<div class="ipt">
+							ljadlj
+						</div>
+					</form>
+					<div class="form_1">
+						<input type="checkbox" name="" id="ipt2" value="" />
+						<span class="span">7日内保持登录状态</span>
+					</div>
+					<a href="" title="登录成功">
+						<input type="button" id="ipt3" value="登录" />
+					</a>
+					<div class="form_2">
+						<a href="######">手机登录  | 忘记密码</a>
+					</div>
+					<div class="form_3">
+						<a href="######">没有注册  ? <span>立即注册</span></a>
+					</div>
+				</div>
+			</div>
+			<script src="js/mui.min.js"></script>
+			<script src="js/app.js"></script>
+			<script type="text/javascript">
+				mui.init()
+				mui.plusReady(function() {
+					mui(".form").on("tap", 'a', function() {
+						var strTitle = this.getAttribute('title')
+						mui.openWindow({
+							url: "denglu.html",
+							id: "denglu.html",
+							extras: {
+								title: strTitle
+							}
+						})
+					})
+				})
+			</script>
+
+		</body>
+
+		</html>

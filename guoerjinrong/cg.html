@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/cg.css"/>
+		<script type="text/javascript">
+			window.onload = function() {
+				document.documentElement.style.fontSize = document.documentElement.clientWidth / 640 * 100 + 'px';
+				window.onresize = function() {
+					document.documentElement.style.fontSize = document.documentElement.clientWidth / 640 * 100 + 'px';
+				}
+			}
+		</script>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title">转让明细</h1>
+		</header>
+		<div class="xiangmu">
+			<div class="xiangmu_1">
+				<ul>
+					<li>预期年化收益率</li>
+					<li>9.6%</li>
+				</ul>
+			</div>
+			<div class="xiangmu_2">
+				<p>项目总额：20000.00</p>
+				<span>100元起投,七天才可转让</span>
+			</div>
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+	</body>
+
+</html>

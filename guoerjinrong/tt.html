@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+	</head>
+       <style type="text/css">
+       	.banner{
+       		width: 100%;
+       		float: left;
+       		margin-bottom: 5%;
+       		
+       	}
+       	.banner img{
+       		width: 100%;
+       		font-size: 0;
+       	}
+       	.con{
+       		width: 100%;
+       		padding: 5% 2%;
+       		background-color: #fff;
+       		float: left;
+       		/*text-align: center;*/
+       	}
+       	
+       	.h5{
+       		
+       		color: #000000;
+       		font-size: 120%;
+       		padding: 3%;
+       		background-color: #fff;
+       		margin-top: 30%;
+       	}
+       	.list{
+       		position: fixed;
+       		float: left;
+       		width: 100%;
+       		top: 4%;
+       		background-color: #fff;
+       		padding: 5% 0;
+       		list-style: none;
+       		text-align: center;
+       		/*margin-left: -4%;*/
+       	}
+       	.list li{
+       		float: left;
+       		width: 25%;
+       	}
+       	.list a{
+       		color: #6D6D72;
+       	}
+       	.list a:hover{
+       		border-bottom: #0062CC 1px solid;
+       		color: #007AFF;
+       	}
+       	.con p{
+       		float: left;
+       		width: 100%;
+       	}
+       	.con span{
+       		width: 75%;
+       		float: right;
+       		color: #333333;
+       	}
+       </style>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title"></h1>
+		</header>
+		<ul class="list">
+			<li><a href="##">公司前台</a></li>
+			<li><a href="##">公司前台</a></li>
+			<li><a href="##">公司前台</a></li>
+			<li><a href="##">公司前台</a></li>
+		</ul>
+		<h5 class="h5">公司前台</h5>
+		<div class="banner">
+			<img src="img/images/tt_03.png"/>
+		</div>
+		<h5 class="h5">联系我们</h5>
+		<div class="con">
+			<p>公司地址：<span>花菇大SAV挥洒的阿萨德刚发的撒个发生化的供货方式</span></p>
+			<p>公司电话：<span>400-3894-6558</span></p>
+			<p>公司电话：<span>400-3894-6558</span></p>
+			<p>公司邮箱：<span>11123@qq.com</span></p>
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+			mui.plusReady(function() {
+				var arr = plus.webview.currentWebview();
+				mui(".mui-title")[0].innerHTML = arr.title;
+			})
+		</script>
+	</body>
+
+</html>

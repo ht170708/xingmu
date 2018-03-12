@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.xiangmu{
+	width: 100%;
+	float: left;
+	background-color: #00a1e7;
+}
+.xiangmu_1{
+	margin-top: .8rem;
+	width: 60%;
+	height: 3rem;
+	/*border-radius: 50%;*/
+	border: 0.1rem solid #FFFFFF;
+}
+

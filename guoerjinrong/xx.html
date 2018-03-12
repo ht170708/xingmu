@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+	</head>
+       <style type="text/css">
+       	.mui-bar{
+       		background-color: #c50020;
+       		box-shadow: none;
+       	}
+       	.banner{
+       		width: 100%;
+       		float: left;
+       		margin-top: 12.3%;
+       	}
+       	.banner img{
+       		width: 100%;
+       	}
+       	.con{
+       		width: 96%;
+       		margin: 5% 2%;
+       		background-color: #fff;
+       		float: left;
+       		text-align: center;
+       	}
+       	.con img{
+       		width: 50%;
+       		float: left;
+       	}
+       	.img{
+       		margin-left: 25%;
+       	}
+       	.con button{
+       		width: 60%;
+       		background-color: #C50020;
+       		margin-left: 10%;
+       		margin-top: 5%;
+       		padding: 2% 0;
+       		border-radius: 2rem;
+       		color: #fff;
+       	}
+       	.con h4{
+       		float: left;
+       		width: 100%;
+       		margin: 7% 0;
+       	}
+       	.con span {
+       		font-size: 200%;
+       	}
+       	.con p{
+       		float: left;
+       		margin-top: 7%;
+       		font-size: 80%;
+       		margin-left: 5%;
+       	}
+       </style>
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title"></h1>
+		</header>
+		<div class="banner">
+			<img src="img/images/00_02.png"/>
+		</div>
+		<div class="con">
+			<img src="img/images/00_05.png"/>
+			<h4><span>218</span>元新手注冊紅包</h4>
+			<img src="img/images/00_09.png" class="img"/>
+			<button>立即登陸</button>
+			<p>注：完成相应的任务后，可在“我的-红包” 中查看红包</p>
+		</div>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+			mui.plusReady(function() {
+				var arr = plus.webview.currentWebview();
+				mui(".mui-title")[0].innerHTML = arr.title;
+			})
+		</script>
+	</body>
+
+</html>
